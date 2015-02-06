@@ -8,7 +8,7 @@ r = praw.Reddit(user_agent='profanity_bot')
 r.login('Profanity-bot', 'Robotpass5')
 #r.send_message('space_broccoli', 'test', 'test')
 
-foulLang = [' ass', 'asshole', 'bastard', 'bitch', 'cock', 'damn', 'fuck', 'goddamn', 'holy shit', 'motherfucker', 'pussy', 'shit', 'testswear']
+foulLang = [' ass ', 'asshole', 'bastard', 'bitch', 'cock', 'damn', 'fuck', 'goddamn', 'holy shit', 'motherfucker', 'pussy', 'shit', 'testswear']
 
 file = open('postids.txt', 'r')
 already_done = set()
